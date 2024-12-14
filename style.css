@@ -17,12 +17,23 @@ header {
     text-align: center;
 }
 
-header h1 {
+header dpk-div {
     font-size: 2.5rem;
     image-resolution: 700;
 }
 
 
+.dpk-div {
+    display: flex
+;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+img {
+    border-radius: 999px;
+}
 header p {
     font-size: 1.2rem;
 }
