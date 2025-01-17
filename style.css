@@ -65,10 +65,10 @@ h1 {
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 700px) {
     .slides {
         /* diplay: flex; */
-        width: auto;
+        width: unset;
         height: 569px;
         /* animation: slide 22s infinite; */
     }
